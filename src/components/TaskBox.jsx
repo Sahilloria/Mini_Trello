@@ -14,9 +14,9 @@ const TaskBox = ({ events, setEvents, currentEvent, setCurrentEvent }) => {
           const initEvent = [
             {
               title: 'Add a new Event',
-              ['To do']: [],
-              ['In progress']: [],
-              ['Completed']: [],
+              'To do': [],
+              'In progress': [],
+              'Completed': [],
             },
           ];
           setEvents(initEvent);

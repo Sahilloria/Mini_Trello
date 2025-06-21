@@ -1,12 +1,13 @@
 .task-box-header {
   display: flex;
   align-items: center;
-  padding: 0 50px;
-  padding-top: 22px;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #ef993ecb;
 }
 .task-box-title {
-  font-size: 2.5em;
-  padding: 25px 0;
+  font-size: 1.5em;
+  padding: 10px;
   font-weight: 500;
 }
 

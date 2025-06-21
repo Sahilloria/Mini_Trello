@@ -6,12 +6,13 @@ import EventBar from './components/EventBar';
 import TaskBox from './components/TaskBox';
 
 function App() {
+
   const initEvent = useMemo(() => [
     {
-      title: 'Add a new Event',
-      ['To do']: [],
-      ['In progress']: [],
-      ['Completed']: [],
+      title: 'Add Event',
+      'To do': [],
+      'In progress': [],
+      'Completed': [],
     },
   ], []);
 
@@ -40,6 +41,7 @@ function App() {
   useEffect(() => {
     updateEvents();
   }, [events]);
+
 
   return (
     <div className='App'>
