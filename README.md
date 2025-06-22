@@ -1,4 +1,4 @@
-# ✔️ Kanban Board - With React
+# ✔️ Mini Trello - With React
 
 <p align="center"><img src="https://imgbed.codingkelvin.fun/uPic/TODO_INFO.svg" style="zoom:80%;" /></p>
 
